@@ -12,35 +12,35 @@ Use this when you want to trigger a notification directly from the client.
 RegisterCommand('vulence1', function()
     exports['qdev_notify']:sendAlert({
         type = 'success',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert({
         type = 'error',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert({
         type = 'info',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert({
         type = 'police',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert({
         type = 'warning',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
@@ -54,31 +54,31 @@ end)
 Use this when you want to trigger a notification from the server to a specific player.
 
 ```lua
-RegisterCommand('vulence2', function(source, args)
+RegisterCommand('qdev2', function(source, args)
     exports['qdev_notify']:sendAlert(source, {
         type = 'success',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert(source, {
         type = 'error',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert(source, {
         type = 'info',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
 
     exports['qdev_notify']:sendAlert(source, {
         type = 'warning',
-        title = 'Vulence',
+        title = 'QDEV Roleplay',
         msg = 'This is a test message from Vule - lorem ipsum style',
         time = 10
     })
