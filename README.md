@@ -1,4 +1,4 @@
-# 📢 Vule Notifications - Usage Example
+# 📢 Qdev Notifications - Usage Example
 
 ![Preview](https://r2.fivemanage.com/hz6NSYQSDWkxuEguj5Ppl/final_thumbnail.png)
 
