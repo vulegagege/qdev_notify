@@ -13,7 +13,7 @@ body {
 #notification-container {
     position: fixed;
     top: 35%;
-    right: 20px; /* Promenjeno sa 15% na 20px od desne ivice */
+    right: 20px; 
     transform: translateY(-50%);
     z-index: 9999;
     pointer-events: none;
