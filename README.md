@@ -1,7 +1,5 @@
 # 📢 Vule Notifications - Usage Example
 
-https://r2.fivemanage.com/hz6NSYQSDWkxuEguj5Ppl/thumbnail.png
-
 This documentation provides examples on how to use the **qdev_notify** system to display various types of notifications on both client-side and server-side.
 
 ---
