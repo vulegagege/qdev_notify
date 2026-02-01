@@ -9,7 +9,7 @@ This documentation provides examples on how to use the **qdev_notify** system to
 Use this when you want to trigger a notification directly from the client.
 
 ```lua
-RegisterCommand('vulence1', function()
+RegisterCommand('qdev1', function()
     exports['qdev_notify']:sendAlert({
         type = 'success',
         title = 'QDEV Roleplay',
