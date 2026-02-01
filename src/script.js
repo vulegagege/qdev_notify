@@ -6,7 +6,7 @@ class CyberpunkNotification {
     }
 
     show(options) {
-        const { title, message, type = 'info', duration = 5000 } = options;
+        const { title, message, type, duration } = options;
         
         this.playNotificationSound();
         
@@ -125,7 +125,7 @@ window.addEventListener('message', function(event) {
         notifications.show({ 
             title: info.title || 'Notification', 
             message: info.msg || '', 
-            type: 'info', 
+            type: info.type || 'info', 
             duration: 5000
         });
     }
